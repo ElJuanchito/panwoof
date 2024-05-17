@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tablaBody = document.getElementById("tabla-body");
 
         // Cargar los datos de productos desde el archivo JSON
-        fetch('/js/productos.json')
+        fetch('/productos.json')
             .then(response => response.json())
             .then(data => {
                 // Iterar sobre cada producto y crear una fila para cada uno

@@ -17,7 +17,7 @@ header {
 }
 
 .encabezado {
-  background-image: url("../img/backgroundHeader.png");
+  background-image: url("/img/backgroundHeader.png");
   background-size: cover; /* Cubrir todo el contenedor con la imagen */
   background-position: center; /* Centrar la imagen en el contenedor */
   max-width: 100%; /* Ajusta el ancho máximo del contenedor al 100% */

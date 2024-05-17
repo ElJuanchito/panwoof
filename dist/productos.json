@@ -1,16 +1,16 @@
 [
     {
-    "imagen" : "../img/wafle.png",
+    "imagen" : "/img/wafle.png",
     "descripcion" : "Waffle de pandebono con miel",
     "precio" : 16000 
     },
     {
-    "imagen" : "../img/harina.png",
+    "imagen" : "/img/harina.png",
     "descripcion" : "Harina para waffles de pandebono",
     "precio" : 20000
     }, 
     {
-    "imagen" : "../img/congelados.png",
+    "imagen" : "/img/congelados.png",
     "descripcion" : "Waffles congelados",
     "precio" : 10000 
     }
