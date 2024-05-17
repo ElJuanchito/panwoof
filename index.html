@@ -10,6 +10,7 @@
 
   <meta name="theme-color" content="#fafafa">
   <script src="/js/app.js" defer type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,8 +21,56 @@
     </div>
   </header>
   <main>
+
+    <div class="text-center">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="rounded bg-dark p-3">
+              <img src="/img/wafle.png" class="w-25 m-2" alt="Wafle">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Wafle de pandebono</h5>
+                <p>Un sabor clasico en nueva presentacion</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="rounded bg-dark p-3">
+              <img src="/img/harina.png" class="w-25 m-2" alt="harina">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Harina para wafles</h5>
+                <p>Prepara tus wafles cuando quieras</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="rounded bg-dark p-3">
+              <img src="/img/congelados.png" class="w-25 m-2" alt="congelados">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Wafles congelados</h5>
+                <p>Solo debes calentarlos y disfrutar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
     <div class="formCompra m-5">
-      <h1 class="text-center" >Animate a probar nuestros deliciosos productos</h1>
+      <h1 class="text-center" >Bolsa de compra</h1>
       <form>
         <div class="responsive-table">
           <table class="table table-bordered text-center">
@@ -53,8 +102,9 @@
         </div>
       </form>
     </div>
-    
+
   </main>
+  
   <footer>
     <div>
       Contactanos:
