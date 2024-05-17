@@ -11,11 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Crear una fila para el producto y asignar valores a las celdas
                     const fila = document.createElement('tr');
                     fila.innerHTML = `
-                        <td><img src="${producto.imagen}" alt="${producto.descripcion}" class="product-image"></td>
-                        <td>${producto.descripcion} COP</td>
-                        <td>${producto.precio} COP</td>
-                        <td><input type="number" min="0" class="form-control"/></td>
-                        <td><input type="number" class="form-control"/></td>
+                        <td><img src="${producto.imagen}" alt="${producto.descripcion}" class="product-image img-fluid"></td>
+                        <td class="h6 align-middle" >${producto.descripcion} COP</td>
+                        <td class="h6 align-middle" >${producto.precio} COP</td>
+                        <td class="align-middle" ><input type="number" min="0" class="form-control"/></td>
+                        <td class="align-middle" ><input type="number" class="form-control"/></td>
                     `;
     
                     // Agregar la fila al cuerpo de la tabla

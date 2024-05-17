@@ -20,12 +20,13 @@
     </div>
   </header>
   <main>
-    <div class="formCompra">
-      <form class="formulario" id="formulario">
+    <div class="formCompra m-5">
+      <h1 class="text-center" >Animate a probar nuestros deliciosos productos</h1>
+      <form>
         <div class="responsive-table">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
+          <table class="table table-bordered text-center">
+            <thead class="thead-light">
+              <tr class="h5">
                 <th>Producto</th>
                 <th>Descripcion</th>
                 <th>Precio</th>
@@ -37,17 +38,22 @@
             </tbody>
           </table>
         </div>
-<!--
-          <div class="formulario_grp">
-          image
-          description
-          price
-          amount
-          total
+        <div class="form-group">
+          <label for="inputNombre">Nombre completo</label>
+          <input type="text" class="form-control" id="inputNombre" aria-describedby="nombreHelp" placeholder="Ingresa tu nombre" required>
+          <small id="nombreHelp" class="form-text text-muted">Ingresa un nombre con el cual podamos indentificarte</small>
         </div>
--->
+        <div class="form-group">
+          <label for="inputNombre">Correo electronico</label>
+          <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Ingresa tu correo electronico" required>
+          <small id="emailHelp" class="form-text text-muted">Recibiras un correo confirmando tu compra</small>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-dark">Pedir</button>
+        </div>
       </form>
     </div>
+    
   </main>
   <footer>
     <div>
