@@ -49,3 +49,8 @@ footer ul li {
   display: block;
 }
 
+.product-image {
+  width: 150px;  /* Ancho deseado */
+  height: auto; /* Mantiene la proporción */
+}
+
