@@ -50,7 +50,7 @@ footer ul li {
 }
 
 .product-image {
-  width: 150px;  /* Ancho deseado */
+  width: 10em;  /* Ancho deseado */
   height: auto; /* Mantiene la proporción */
 }
 
